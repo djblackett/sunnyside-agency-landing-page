@@ -74,10 +74,6 @@ header {
   justify-content: flex-start;
 }
 
-li {
-  
-}
-
 .sunnyside {
   margin-left: 1%;
 }
@@ -102,6 +98,8 @@ footer {
   letter-spacing: 0.1em;
   font-family: "Fraunces", serif;
   font-stretch: extra-expanded;
+  text-shadow: 0.5px 0 currentColor;
+  letter-spacing: 0.5px;
 }
 
 .nav-bar {
@@ -173,11 +171,6 @@ footer {
   padding: 0.9rem 1.5rem;
 }
 
-/* .contact-button:hover {
-  color: white;
-  background-color: rgba(255, 255, 255, 0.4);
-} */
-
 .square-image {
   width: 100%;
   background-repeat: no-repeat;
@@ -213,6 +206,8 @@ footer {
   padding-left: 2ch;
   padding-right: 2ch;
   padding-bottom: 0.75rem;
+  text-shadow: 0.5px 0 currentColor;
+  letter-spacing: 0.5px;
 }
 
 .section-paragraph {
@@ -230,7 +225,7 @@ footer {
   background-color: transparent;
   font-size: 1rem;
   font-weight: 900;
-  letter-spacing: 0.1em;
+
   text-transform: uppercase;
   margin-bottom: 4rem;
   color: hsl(212, 27%, 19%);
@@ -238,6 +233,8 @@ footer {
   text-decoration-color: hsl(51, 100%, 49%);
   text-decoration-thickness: 5px;
   text-underline-offset: -2px;
+  text-shadow: 0.5px 0 currentColor;
+  letter-spacing: 0.5px;
 }
 
 .section-link:hover {
@@ -329,6 +326,8 @@ footer {
   text-transform: uppercase;
   font-family: "Fraunces", serif;
   font-size: 1.3rem;
+  text-shadow: 0.5px 0 currentColor;
+  letter-spacing: 0.5px;
 }
 
 .testimonial {
@@ -354,6 +353,8 @@ footer {
   font-weight: 900;
   margin-bottom: 0;
   font-family: "Fraunces", serif;
+  text-shadow: 0.5px 0 currentColor;
+  letter-spacing: 0.5px;
 }
 
 .client-position {
@@ -485,7 +486,6 @@ footer {
 
   .nav-bar > li {
     margin-right: 1rem;
-    
   }
 
   .main-grid {
