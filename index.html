@@ -16,7 +16,12 @@
       function toggleMenu() {
         let menu = document.getElementById("menu");
         let value = menu.style.display;
-        menu.style.display = value === "none" ? "flex" : "none";
+        let triangle = document.getElementById("nav-box-arrow");
+
+        let triangleDisplay = triangle.style.display;
+        menu.style.display = value === "none" || !value ? "flex" : "none";
+        triangle.style.display =
+          triangleDisplay === "none" || !triangleDisplay ? "initial" : "none";
       }
     </script>
 
@@ -35,8 +40,8 @@
               alt="hamburger menu"
             />
           </button>
-          <ul class="nav-bar" id="menu" style="display: none">
-            <div class="arrow-left"></div>
+          <ul class="nav-bar" id="menu">
+            <div class="arrow-left" id="nav-box-arrow"></div>
             <li>About</li>
             <li>Services</li>
             <li>Projects</li>
