@@ -369,7 +369,7 @@ footer {
   margin-bottom: 3.5rem;
 }
 
-#social-media-icons > a:hover {
+#social-media-icons > li:hover {
   fill: white;
 }
 
