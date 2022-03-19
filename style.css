@@ -74,6 +74,10 @@ header {
   justify-content: flex-start;
 }
 
+.sunnyside {
+  margin-left: 1%;
+}
+
 footer {
   background-color: hsl(168, 34%, 41%);
   display: flex;
@@ -117,8 +121,8 @@ footer {
 .arrow-left {
   display: none;
   position: absolute;
-  right: 0;
-  top: -25px;
+  right: 5%;
+  top: 85px;
   width: 0;
   height: 0;
   border-top: 25px solid transparent;
@@ -388,6 +392,10 @@ footer {
   color: hsl(228, 45%, 44%);
 }
 
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
 @media (min-width: 360px) {
   .arrow {
     height: 12rem;
@@ -403,18 +411,14 @@ footer {
     height: 18rem;
   }
 
-  .section-text {
-    /* aspect-ratio: 1; */
-  }
-
   .section-paragraph {
     padding-left: 8rem;
     padding-right: 8rem;
   }
 
   .image-section {
-    padding-left: 8rem;
-    padding-right: 8rem;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 
   .testimonial-text {
@@ -484,28 +488,32 @@ footer {
     width: 100%;
   }
 
-  .main-grid > section {
-    aspect-ratio: 1;
-  }
-
   .main-grid > div {
     aspect-ratio: 1;
   }
 
   .section-text {
-    padding: 2ch 15% 2ch 20%;
+    padding: 5% 15% 5% 20%;
     width: 100%;
     align-items: flex-start;
+    justify-content: space-evenly;
     text-align: left;
+    aspect-ratio: initial;
+    min-height: initial;
   }
 
   .section-title {
     text-align: left;
     padding-left: 0;
+    padding-top: 2rem;
   }
 
   .section-paragraph {
     padding: 0;
+  }
+
+  .section-link {
+    margin-bottom: 0.5rem;
   }
 
   #transform {
@@ -517,11 +525,13 @@ footer {
 
   .image-section {
     height: initial;
-    min-height: initial;
+    /* min-height: initial; */
+    width: 100%;
   }
 
   .image-paragraph {
-    padding: 0 15%;
+    padding: 0 5%;
+    width: 100%;
   }
 
   #stand-out-text {
@@ -561,8 +571,8 @@ footer {
   }
 
   .testimonial-text {
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 7%;
+    padding-right: 7%;
   }
 
   .image-block {
@@ -571,15 +581,30 @@ footer {
   }
 
   .footer-title {
-    width: 50%;
+    /* width: 50%; */
     text-align: center;
   }
 
   #footer-nav {
-    width: 30%;
+    width: 40%;
     text-align: center;
   }
 
+  #social-media-icons {
+    width: 30%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .section-text {
+    aspect-ratio: initial;
+  }
+}
+
+@media (min-width: 1200px) {
+  #footer-nav {
+    width: 30%;
+  }
   #social-media-icons {
     width: 20%;
   }
