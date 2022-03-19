@@ -74,6 +74,10 @@ header {
   justify-content: flex-start;
 }
 
+li {
+  
+}
+
 .sunnyside {
   margin-left: 1%;
 }
@@ -481,6 +485,7 @@ footer {
 
   .nav-bar > li {
     margin-right: 1rem;
+    
   }
 
   .main-grid {
